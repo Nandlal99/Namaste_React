@@ -1,0 +1,109 @@
+
+.header{
+    background-color: rgb(252, 219, 225);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.logo{
+    display: flex;
+    
+}
+
+.logo > a > img{
+    width: 110px;
+    background-color: white;
+}
+
+.nav-item > ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-item > ul > li{
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    width:200px;
+    margin: 10px;
+    padding: 10px;
+}
+.card > img{
+    width: 100%;
+}
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    height: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    background: rgb(247, 216, 221);
+}
+
+.footer-col{
+    display: flex;
+    
+}
+
+.footer-row{
+    
+    width: 30%;
+}
+
+.col {
+    display: flex;
+    
+    width: 70%;
+    /* background-color: red; */
+}
+
+.col > div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 2px;
+}
+
+.col > div > h6{
+    font-size: .6rem;
+}
+
+.col > div > h4 {
+    font-size: .8rem;
+}
+
+.logo-footer{
+    display: flex;
+    width: 200px;
+}
+
+.logo-footer > img{
+    width: 100%;
+}
+
+.footer-row > p{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    margin: 5px;
+    margin-left: 25rem;
+    width:max-content;
+    padding: 10px;
+}
