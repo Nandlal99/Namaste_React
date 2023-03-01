@@ -1,0 +1,34 @@
+{
+  "name": "lecture1",
+  "version": "1.0.0",
+  "description": "This is react course",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nandlal99/Namaste_React.git"
+  },
+  "author": "Nandlal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nandlal99/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/Nandlal99/Namaste_React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
